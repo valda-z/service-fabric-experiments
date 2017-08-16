@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26711.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "SFCluster", "SFCluster\SFCluster.deployproj", "{3B349EB5-4B97-4A7D-B2A4-DA3B0367968C}"
 EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "SFClusterVMSSMonitoring", "SFClusterVMSSMonitoring\SFClusterVMSSMonitoring.deployproj", "{1B6D0BCE-2E26-4B10-A973-589BEE2EDEC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3B349EB5-4B97-4A7D-B2A4-DA3B0367968C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B349EB5-4B97-4A7D-B2A4-DA3B0367968C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B349EB5-4B97-4A7D-B2A4-DA3B0367968C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B6D0BCE-2E26-4B10-A973-589BEE2EDEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6D0BCE-2E26-4B10-A973-589BEE2EDEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6D0BCE-2E26-4B10-A973-589BEE2EDEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6D0BCE-2E26-4B10-A973-589BEE2EDEC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
