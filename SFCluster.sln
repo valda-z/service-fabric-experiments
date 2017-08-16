@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26711.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "SFCluster", "SFCluster\SFCluster.deployproj", "{3B349EB5-4B97-4A7D-B2A4-DA3B0367968C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B349EB5-4B97-4A7D-B2A4-DA3B0367968C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B349EB5-4B97-4A7D-B2A4-DA3B0367968C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B349EB5-4B97-4A7D-B2A4-DA3B0367968C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B349EB5-4B97-4A7D-B2A4-DA3B0367968C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EF13902-7436-4337-B7ED-FF80E93ED5C4}
+	EndGlobalSection
+EndGlobal
