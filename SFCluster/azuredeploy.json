@@ -4,6 +4,7 @@
     "parameters": {
       "clusterLocation": {
         "type": "string",
+        "defaultValue":  "southcentralus",
         "metadata": {
           "description": "Location of the Cluster"
         }
@@ -51,9 +52,10 @@
             "type": "string",
             "defaultValue": "10.0.0.0/24"
         },
-        "computeLocation": {
-            "type": "string"
-        },
+      "computeLocation": {
+        "type": "string",
+        "defaultValue": "southcentralus"
+      },
         "publicIPAddressName": {
             "type": "string",
             "defaultValue": "PublicIP-VM"
