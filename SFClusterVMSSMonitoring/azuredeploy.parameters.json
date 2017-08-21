@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "computeLocation": {
-      "value": "South Central US"
+      "value": "West Europe"
     },
     "vmStorageAccountName": {
       "value": "sfvaldasf2"
@@ -15,6 +15,12 @@
       "value": "pwd123...pwd"
     },
     "omsWorkspacename": {
+      "value": "valdasf"
+    },
+    "adminUserName": {
+      "value": "valda"
+    },
+    "applicationInsightsName": {
       "value": "valdasf"
     }
   }
