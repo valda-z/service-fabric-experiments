@@ -13,7 +13,7 @@ Standard SF cluster with external load balancer and public IP address, template 
 Standard SF cluster with external load balancer and public IP address, template exposes 3 application ports from SF cluster.
 Traditionally template creates Application Insight and OMS workspace, all nodes are connected to OMS workspace. Application Insights and OMS is used for SF Cluster monitoring.
  
-### SFClusterVMSSMonitoring
+### SFClusterVMSSMonitoringAppGW
 
 Standard SF cluster with internal load balancer, application gateway which exposes public IP address and traffic to applications (template exposes 3 application ports from SF cluster).
 Traditionally template creates Application Insight and OMS workspace, all nodes are connected to OMS workspace. Application Insights and OMS is used for SF Cluster monitoring.
