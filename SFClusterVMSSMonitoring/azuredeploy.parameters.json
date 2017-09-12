@@ -22,6 +22,18 @@
     },
     "applicationInsightsName": {
       "value": "valdasf"
+    },
+    "loadBalancedAppPort1": {
+      "value": 8080
+    },
+    "loadBalancedAppPort2": {
+      "value": 8081
+    },
+    "loadBalancedAppPort3": {
+      "value": 8082
+    },
+    "lbIPName": {
+      "value": ""
     }
   }
 }
