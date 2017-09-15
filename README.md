@@ -15,13 +15,16 @@ Traditionally template creates Application Insight and OMS workspace, all nodes 
  
 ### SFClusterVMSSMonitoringAppGW
 
-Standard SF cluster with internal load balancer, application gateway which exposes public IP address and traffic to applications (template exposes 3 application ports from SF cluster).
+Standard SF cluster with internal load balancer, application gateway which exposes public IP address and traffic to applications (template exposes 3 application ports from SF cluster). 
+
+Service Fabric cluster is provisioned with enabled addon "RepairManager" which provide to cluster automation OS updates. See: https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-patch-orchestration-application 
+
 Traditionally template creates Application Insight and OMS workspace, all nodes are connected to OMS workspace. Application Insights and OMS is used for SF Cluster monitoring.
 For SF cluster management and deployment is used VPN Gateway in Point To Site mode.
 
 ![img1.png](img/img1.png)
 
-Before publish template:
+Before publish template (steps needed for Point To Site VPN):
 * prepare ROOT and Client certificates for Point To Site VPN
     * https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-certificates-point-to-site
     * https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-certificates-point-to-site#clientcert

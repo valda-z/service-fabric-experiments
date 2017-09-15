@@ -1131,6 +1131,9 @@
         "[resourceId('microsoft.insights/components', parameters('applicationInsightsName'))]"
       ],
       "properties": {
+        "addonFeatures": [
+          "RepairManager"
+        ],
         "clientCertificateCommonNames": [],
         "clientCertificateThumbprints": [],
         "clusterState": "Default",
