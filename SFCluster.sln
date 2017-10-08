@@ -9,6 +9,8 @@ Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "SFClusterVMSSMonitoring", "
 EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "SFClusterVMSSMonitoringAppGW", "SFClusterVMSSMonitoringAppGW\SFClusterVMSSMonitoringAppGW.deployproj", "{C44DECF2-9E7C-428B-9A81-C7AA606942B0}"
 EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "SFClusterVMSSMonitoringAppGWSECURED", "SFClusterVMSSMonitoringAppGWSECURED\SFClusterVMSSMonitoringAppGWSECURED.deployproj", "{8331FC39-943C-4539-A2AD-AF7974E86810}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C44DECF2-9E7C-428B-9A81-C7AA606942B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C44DECF2-9E7C-428B-9A81-C7AA606942B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C44DECF2-9E7C-428B-9A81-C7AA606942B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8331FC39-943C-4539-A2AD-AF7974E86810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8331FC39-943C-4539-A2AD-AF7974E86810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8331FC39-943C-4539-A2AD-AF7974E86810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8331FC39-943C-4539-A2AD-AF7974E86810}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
